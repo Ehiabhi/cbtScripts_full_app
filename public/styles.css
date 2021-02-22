@@ -1,0 +1,55 @@
+body {
+  font-family: monospace;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+h1 {
+  margin: 0;
+  color: rgb(14, 63, 197);
+  font-size: 15px;
+}
+
+ul>li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+ul>li:not(:last-child)::after {
+  content: "/ ";
+}
+
+ul>li>a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.MuiFormControlLabel-root {
+  cursor: pointer;
+  color: #333;
+}
+
+.MuiFormControlLabel-root:hover {
+  background-color: rgb(188, 192, 191);
+  border-radius: 7px;
+}
+
+.MuiFormControl-root {
+  width: 80%;
+  text-align: left;
+}
+
+#question {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.transit {
+  animation: ease-in;
+}
+
+#instruction {
+  list-style: none;
+}
